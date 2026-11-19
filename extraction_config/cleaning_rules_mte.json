@@ -1,0 +1,69 @@
+{
+  "literal": [],
+  "regex": [
+    {
+      "pattern": "^www\\.pciconc$",
+      "flags": "M",
+      "note": "pciconcursos watermark, left fragment (2003)"
+    },
+    {
+      "pattern": "^rsos\\.com\\.br.*$",
+      "flags": "M",
+      "note": "pciconcursos watermark, right fragment 'rsos.com.br(cid:13)(cid:10) www.pciconcursos.com.br' (2003)"
+    },
+    {
+      "pattern": "^pcimarkpci .*$",
+      "flags": "M",
+      "note": "pciconcursos watermark code (2003)"
+    },
+    {
+      "pattern": "^[A-Za-z0-9+/]{8,}:[A-Za-z0-9+/]+={0,2}$",
+      "flags": "M",
+      "note": "pciconcursos watermark code in base64, e.g. 'OTZhNTo0YmY0:VHVlLCAz...==' (2003)"
+    },
+    {
+      "pattern": "^Auditor-Fiscal do Trabalho - MTE - \\d{4}$",
+      "flags": "M",
+      "note": "footer (2003)"
+    },
+    {
+      "pattern": "^\\d+ Prova \\d$",
+      "flags": "M",
+      "note": "page number and exam '2 Prova 3' (2003)"
+    },
+    {
+      "pattern": "^Cargo: Auditor-Fiscal do Trabalho - .*\\d{4}(?: \\d+)?$",
+      "flags": "M",
+      "note": "header 'Cargo: Auditor-Fiscal do Trabalho - 2006', with optional page number (2006, 2010)"
+    },
+    {
+      "pattern": "^Prova Objetiva \\d$",
+      "flags": "M",
+      "note": "footer 'Prova Objetiva 2' (2006)"
+    },
+    {
+      "pattern": "^Prova \\d - Gabarito \\d$",
+      "flags": "M",
+      "note": "footer 'Prova 2 - Gabarito 1' (2010)"
+    }
+  ],
+  "question": {
+    "literal": [],
+    "regex": [
+      {
+        "pattern": "-[ \\t]*\\n(?=[A-ZÀ-Ü])",
+        "replacement": "-",
+        "note": "hyphen before an uppercase letter at the line break keeps the hyphen (Auditores-\\nFiscais); must run before the line-break rule"
+      },
+      {
+        "pattern": "(?<=[a-zà-ü])-\\n(?=[a-zà-ü])",
+        "note": "word split in syllables across lines (contribu-\\nições -> contribuições); must run before the line-break rule"
+      },
+      {
+        "pattern": "\\s+",
+        "replacement": " ",
+        "note": "line breaks and repeated spaces"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+# Python environment and caches
+clt_bench_env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local work: scratch notebooks and scripts, run logs, column debug images
+temp/
+logs/
+debug_column/
+
+# Extraction check of the TRT exams outside the dataset
+csvs/trt/trt_others_report.csv
+csvs/trt/trt_questions_others.csv
+clt_bench_env

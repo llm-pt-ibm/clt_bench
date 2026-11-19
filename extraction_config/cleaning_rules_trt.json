@@ -1,0 +1,205 @@
+{
+  "literal": [
+    {
+      "value": "no FSTS poderá",
+      "replacement": "no FGTS poderá",
+      "note": "OCR 'FSTS' for 'FGTS' in the statement of q46 (TRT 11ª 2024)"
+    },
+    {
+      "value": "movimen tada",
+      "replacement": "movimentada",
+      "note": "OCR space inside the word in the statement of q46 (TRT 11ª 2024)"
+    },
+    {
+      "value": "\nIv. o trabalhador ter idade",
+      "replacement": "\nIV. o trabalhador ter idade",
+      "note": "OCR 'Iv.' for item IV of q46 (TRT 11ª 2024)"
+    },
+    {
+      "value": "(A) I.\n(BETE:\n(C) IIe Iv.\n(D) IellI.\n(E) IlIe Iv.",
+      "replacement": "(A) I.\n(B) III.\n(C) II e IV.\n(D) I e II.\n(E) III e IV.",
+      "note": "options of q46 (TRT 11ª 2024) unreadable by OCR; text from the exam image"
+    },
+    {
+      "value": "como um periodo sem trabalho",
+      "replacement": "como um período sem trabalho",
+      "note": "OCR lost the accent (q41, TRT 12ª 2023)"
+    },
+    {
+      "value": "embora descontinuos",
+      "replacement": "embora descontínuos",
+      "note": "OCR lost the accent (q41, TRT 12ª 2023)"
+    },
+    {
+      "value": "em até dois periodos",
+      "replacement": "em até dois períodos",
+      "note": "OCR lost the accent (q41, TRT 12ª 2023)"
+    },
+    {
+      "value": "(A) IeIv.\n(B) II elit.\n(C) III ev.\n(D) II elIv.\n(E) Lev.",
+      "replacement": "(A) I e IV.\n(B) II e III.\n(C) III e V.\n(D) II e IV.\n(E) I e V.",
+      "note": "options of q41 (TRT 12ª 2023) unreadable by OCR; text from the exam image"
+    }
+  ],
+  "regex": [
+    {
+      "pattern": "^.{0,3}Caderno de Prova ['’][A-Z0-9]*['’], Tipo \\d+$",
+      "flags": "M",
+      "note": "FCC header 'Caderno de Prova ’A01’, Tipo 001', with OCR noise before it ('E Caderno de Prova 'AQT'', TRT 12ª 2023)"
+    },
+    {
+      "pattern": "^.{0,4}[Cc]a[dg]e[rm]n?o de Prova.{0,12}Tipo \\d+.*$",
+      "flags": "M",
+      "note": "FCC header read by OCR with errors and noise around it: 'Cademo de Prova '401', Tipo 004 EV', 'RR cagemo de Prova ot, Tipo 004', 'O caderno de Prova not, Tipo 001' (TRT 11ª 2024, 12ª 2023)"
+    },
+    {
+      "pattern": "^Caderno de(?: P(?:r(?:o(?:va ['’][A-Z0-9]*)?)?)?)?$",
+      "flags": "M",
+      "note": "FCC header left fragment cut by the column split: 'Caderno de', 'Caderno de Pr', 'Caderno de Prova ’'"
+    },
+    {
+      "pattern": "^(?:P?r?ova ['’])?[A-Z0-9]*['’], Tipo \\d+$",
+      "flags": "M",
+      "note": "FCC header right fragment cut by the column split: 'rova ’A01’, Tipo 001', '01’, Tipo 001'"
+    },
+    {
+      "pattern": "^(?:\\d+ )?T ?R ?T ?\\d+R?-\\S.*$",
+      "flags": "M",
+      "note": "FCC footer with optional page number: 'TRT2R-Conhecimentos Gerais2', '4 TRT1R-Conhecimentos Básicos1', 'TRT14-Anal.Jud.-Exec.Mandados-B02', 'TRT11-Conhec.Gerais! 3' (OCR), 'TR T11-An.Jud.-Administrativa-ADI 1' (OCR)"
+    },
+    {
+      "pattern": "^Tribunal Regional do Trabalho do Estado de Santa Catarina(?: FGV – Projetos)?$",
+      "flags": "M",
+      "note": "FGV header left part (TRT 12ª 2017)"
+    },
+    {
+      "pattern": "^FGV – Projetos$",
+      "flags": "M",
+      "note": "FGV header right part (TRT 12ª 2017)"
+    },
+    {
+      "pattern": "^Analista Judiciário - .*(?:/ ?Sem Especialidade|Avaliador F)(?: \\uf051\\uf020 Tipo \\d – Cor BRANCA – Página \\d+)?$",
+      "flags": "M",
+      "note": "FGV footer left part with the position, e.g. 'Analista Judiciário - Área Judiciária / Sem Especialidade' (TRT 12ª 2017)"
+    },
+    {
+      "pattern": "^(?:deral )?\\uf051\\uf020 Tipo \\d – Cor BRANCA – Página \\d+$",
+      "flags": "M",
+      "note": "FGV footer right part 'Tipo 1 – Cor BRANCA – Página 3', with the end of 'Federal' cut by the column split (TRT 12ª 2017)"
+    },
+    {
+      "pattern": "[ \\t]*(?:Via )?@carla_gabola|^(?:By )?Carla Gabola$",
+      "note": "watermark of the person who shared the PDF: 'Via @carla_gabola' or '@carla_gabola' alone or at the end of a line (TRT 2ª 2018), 'Carla Gabola' / 'By Carla Gabola' lines (TRT 11ª 2017)",
+      "flags": "M"
+    },
+    {
+      "pattern": "^[_ \\t]*_[_ \\t]*\\n",
+      "flags": "M",
+      "note": "line of underscores between questions or in the column gap (FCC), with its line break; the underscores may be split by spaces ('__ ______', TRT 12ª 2013)"
+    },
+    {
+      "pattern": "^_[ \\t]+(?=\\S)",
+      "flags": "M",
+      "note": "underscore of the column gap before the text of the line: '_ (D) 5% (cinco por cento)...' (TRT 1ª 2011, 3ª 2015)"
+    },
+    {
+      "pattern": "[ \\t]+_[ \\t]*$",
+      "flags": "M",
+      "note": "underscore of the column gap at the end of the line: 'após o parto. _' (TRT 1ª 2011)"
+    },
+    {
+      "pattern": "^\\(4\\)(?=[ \\t])",
+      "replacement": "(A)",
+      "flags": "M",
+      "note": "option (A) read by OCR as '(4)': '(4) a transferência do regime jurídico...' (TRT 11ª 2024)"
+    },
+    {
+      "pattern": "^(\\([A-E]\\))[ \\t]*\\|[ \\t]*",
+      "replacement": "\\1 ",
+      "flags": "M",
+      "note": "OCR noise: vertical bar after the option marker, '(E) | Incontinência de conduta.' (TRT 11ª 2024)"
+    },
+    {
+      "pattern": "^E É\\n?",
+      "flags": "M",
+      "note": "OCR noise: line 'E É' at the bottom of a page, read from the image (TRT 11ª 2024)"
+    }
+  ],
+  "question": {
+    "literal": [
+      {
+        "value": " ",
+        "replacement": " ",
+        "note": "non-breaking space"
+      },
+      {
+        "value": "​",
+        "replacement": " ",
+        "note": "zero-width space"
+      }
+    ],
+    "regex": [
+      {
+        "pattern": "\\n(?:PROVA )?(?:DISCURSIVA|ESTUDO DE CASO|REDAÇÃO)\\b[\\s\\S]*",
+        "note": "essay (Discursiva / Estudo de Caso) after the last question: removed with everything after it (TRT 3ª 2015, 6ª 2018, 23ª 2016)"
+      },
+      {
+        "pattern": "­[ \\t]*\\n?",
+        "note": "soft hyphen of a word split across lines: Con­\\nvenção -> Convenção (TRT 24ª 2011)"
+      },
+      {
+        "pattern": "\\n\\d{1,3}[ \\t]*(?=\\n|$)",
+        "note": "page number alone on a line, at the bottom of the column (FCC 2011-2013)"
+      },
+      {
+        "pattern": "-[ \\t]*\\n-",
+        "replacement": "-",
+        "note": "compound word split at its hyphen, which FCC repeats on the next line (segunda-\\n-feira -> segunda-feira)"
+      },
+      {
+        "pattern": "-[ \\t]*\\n(?=lhes?\\b)",
+        "replacement": "-",
+        "note": "pronoun after the hyphen: retirou-\\nlhe -> retirou-lhe"
+      },
+      {
+        "pattern": "(?<=ndo)-[ \\t]*\\n(?=(?:se|lo|la|los|las|o|a|os|as)\\b)",
+        "replacement": "-",
+        "note": "pronoun after a gerund: considerando-\\nse -> considerando-se, condenando-\\na -> condenando-a"
+      },
+      {
+        "pattern": "(?<=[a-zà-ü]{3}[aeiouáéêíóôõúm])-[ \\t]*\\n(?=se\\b)",
+        "replacement": "-",
+        "note": "'se' after a verb of 4+ letters: deixa-\\nse, mantém-\\nse; the syllable 'se' of profes-\\nse, pos-\\nse, fra-\\nse is joined by the rule below"
+      },
+      {
+        "pattern": "(?<=[áéêíóô])-[ \\t]*\\n(?=(?:lo|la|los|las)\\b)",
+        "replacement": "-",
+        "note": "pronoun after an accented verb: contemplá-\\nla -> contemplá-la"
+      },
+      {
+        "pattern": "\\b(licença|salário|vale|auxílio|seguro|segunda|terça|quarta|quinta|sexta)-[ \\t]*\\n(?=[a-zà-ü])",
+        "replacement": "\\1-",
+        "note": "compound word whose first part is a whole word, split at its hyphen: licença-\\nmaternidade, salário-\\nutilidade, vale-\\ntransporte (a syllable split would be 'salá-\\nrio')"
+      },
+      {
+        "pattern": "-[ \\t]*\\n(?=[A-ZÀ-Ü])",
+        "replacement": "-",
+        "note": "hyphen before an uppercase letter: Vice-\\nProcurador, Seguro-\\nDesemprego, PJe-\\nJT"
+      },
+      {
+        "pattern": "(?<=[a-zà-ü])-[ \\t]*\\n(?=[a-zà-ü])",
+        "note": "word split in syllables across lines (empre-\\ngada -> empregada); the rules above must run before it"
+      },
+      {
+        "pattern": "º(?=[a-zà-ü])",
+        "replacement": "º ",
+        "note": "ordinal glued to the next word, without a space in the PDF: '5ºdia útil' (TRT 14ª 2022 q37)"
+      },
+      {
+        "pattern": "\\s+",
+        "replacement": " ",
+        "note": "line breaks and repeated spaces"
+      }
+    ]
+  }
+}

@@ -1,0 +1,344 @@
+[
+  {
+    "exam": "Juiz do Trabalho - TRT 1ª Região - 2011",
+    "prova_path": "all_exams_trt/1regiao/2011/Juiz do Trabalho Substituto/fcc-2011-trt-1-regiao-rj-juiz-do-trabalho-prova.pdf",
+    "gabarito_path": "all_exams_trt/1regiao/2011/Juiz do Trabalho Substituto/fcc-2011-trt-1-regiao-rj-juiz-do-trabalho-gabarito.pdf",
+    "position": "Juiz do Trabalho"
+  },
+  {
+    "exam": "Juiz do Trabalho - TRT 1ª Região - 2012",
+    "prova_path": "all_exams_trt/1regiao/2012/Juiz do Trabalho Substituto/fcc-2012-trt-1-regiao-rj-juiz-do-trabalho-prova.pdf",
+    "gabarito_path": "all_exams_trt/1regiao/2012/Juiz do Trabalho Substituto/fcc-2012-trt-1-regiao-rj-juiz-do-trabalho-gabarito.pdf",
+    "position": "Juiz do Trabalho"
+  },
+  {
+    "exam": "Analista Judiciário - Execução de Mandados - TRT 1ª Região - 2013",
+    "prova_path": "all_exams_trt/1regiao/2013/Analista Judiciário - Execução de Mandados/fcc-2013-trt-1-regiao-rj-analista-judiciario-execucao-de-mandados-prova.pdf",
+    "gabarito_path": "all_exams_trt/1regiao/2013/Analista Judiciário - Execução de Mandados/fcc-2013-trt-1-regiao-rj-analista-judiciario-execucao-de-mandados-gabarito.pdf",
+    "position": "Analista Judiciário - Execução de Mandados"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 2ª Região - 2014",
+    "prova_path": "all_exams_trt/2regiao/2014/Analista Judiciário - Área Administrativa/fcc-2014-trt-2-regiao-sp-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/2regiao/2014/Analista Judiciário - Área Administrativa/fcc-2014-trt-2-regiao-sp-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 2ª Região - 2014",
+    "prova_path": "all_exams_trt/2regiao/2014/Analista Judiciário - Área Judiciária/fcc-2014-trt-2-regiao-sp-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/2regiao/2014/Analista Judiciário - Área Judiciária/fcc-2014-trt-2-regiao-sp-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 2ª Região - 2018",
+    "prova_path": "all_exams_trt/2regiao/2018/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2018-trt-2-regiao-sp-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/2regiao/2018/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2018-trt-2-regiao-sp-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 2ª Região - 2018",
+    "prova_path": "all_exams_trt/2regiao/2018/Analista Judiciário - Área Administrativa/fcc-2018-trt-2-regiao-sp-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/2regiao/2018/Analista Judiciário - Área Administrativa/fcc-2018-trt-2-regiao-sp-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 2ª Região - 2018",
+    "prova_path": "all_exams_trt/2regiao/2018/Analista Judiciário - Área Judiciária/fcc-2018-trt-2-regiao-sp-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/2regiao/2018/Analista Judiciário - Área Judiciária/fcc-2018-trt-2-regiao-sp-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 3ª Região - 2015",
+    "prova_path": "all_exams_trt/3regiao/2015/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2015-trt-3-regiao-mg-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/3regiao/2015/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2015-trt-3-regiao-mg-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 3ª Região - 2015",
+    "prova_path": "all_exams_trt/3regiao/2015/Analista Judiciário - Área Judiciária/fcc-2015-trt-3-regiao-mg-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/3regiao/2015/Analista Judiciário - Área Judiciária/fcc-2015-trt-3-regiao-mg-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 4ª Região - 2015",
+    "prova_path": "all_exams_trt/4regiao/2015/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2015-trt-4-regiao-rs-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/4regiao/2015/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2015-trt-4-regiao-rs-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 4ª Região - 2015",
+    "prova_path": "all_exams_trt/4regiao/2015/Analista Judiciário - Administrativa/fcc-2015-trt-4-regiao-rs-analista-judiciario-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/4regiao/2015/Analista Judiciário - Administrativa/fcc-2015-trt-4-regiao-rs-analista-judiciario-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 4ª Região - 2015",
+    "prova_path": "all_exams_trt/4regiao/2015/Analista Judiciário - Área Judiciária/fcc-2015-trt-4-regiao-rs-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/4regiao/2015/Analista Judiciário - Área Judiciária/fcc-2015-trt-4-regiao-rs-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 4ª Região - 2022",
+    "prova_path": "all_exams_trt/4regiao/2022/ Analista Judiciário - Área Administrativa/fcc-2022-trt-4-regiao-rs-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/4regiao/2022/ Analista Judiciário - Área Administrativa/fcc-2022-trt-4-regiao-rs-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 4ª Região - 2022",
+    "prova_path": "all_exams_trt/4regiao/2022/Analista Judiciário - Área Judiciária/fcc-2022-trt-4-regiao-rs-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/4regiao/2022/Analista Judiciário - Área Judiciária/fcc-2022-trt-4-regiao-rs-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador - TRT 5ª Região - 2013",
+    "prova_path": "all_exams_trt/5regiao (completo)/2013/Analista Judiciário - Oficial de Justiça Avaliador/fcc-2013-trt-5-regiao-ba-analista-judiciario-oficial-de-justica-avaliador-prova.pdf",
+    "gabarito_path": "all_exams_trt/5regiao (completo)/2013/Analista Judiciário - Oficial de Justiça Avaliador/fcc-2013-trt-5-regiao-ba-analista-judiciario-oficial-de-justica-avaliador-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 5ª Região - 2013",
+    "prova_path": "all_exams_trt/5regiao (completo)/2013/Analista Judiciário - Área Administrativa/fcc-2013-trt-5-regiao-ba-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/5regiao (completo)/2013/Analista Judiciário - Área Administrativa/fcc-2013-trt-5-regiao-ba-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 5ª Região - 2013",
+    "prova_path": "all_exams_trt/5regiao (completo)/2013/Analista Judiciário - Área Judiciária/fcc-2013-trt-5-regiao-ba-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/5regiao (completo)/2013/Analista Judiciário - Área Judiciária/fcc-2013-trt-5-regiao-ba-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 5ª Região - 2022",
+    "prova_path": "all_exams_trt/5regiao (completo)/2022/ Analista Judiciário - Área Administrativa/fcc-2022-trt-5-regiao-ba-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/5regiao (completo)/2022/ Analista Judiciário - Área Administrativa/fcc-2022-trt-5-regiao-ba-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - Oficial de Justiça Avaliador Federal - TRT 5ª Região - 2022",
+    "prova_path": "all_exams_trt/5regiao (completo)/2022/Analista Judiciário - Área Judiciária - Oficial de Justiça Avaliador Federal/fcc-2022-trt-5-regiao-ba-analista-judiciario-area-judiciaria-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/5regiao (completo)/2022/Analista Judiciário - Área Judiciária - Oficial de Justiça Avaliador Federal/fcc-2022-trt-5-regiao-ba-analista-judiciario-area-judiciaria-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 6ª Região - 2018",
+    "prova_path": "all_exams_trt/6regiao/2018/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2018-trt-6-regiao-pe-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/6regiao/2018/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2018-trt-6-regiao-pe-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 6ª Região - 2018",
+    "prova_path": "all_exams_trt/6regiao/2018/Analista Judiciário - Área Administrativa/fcc-2018-trt-6-regiao-pe-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/6regiao/2018/Analista Judiciário - Área Administrativa/fcc-2018-trt-6-regiao-pe-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 6ª Região - 2018",
+    "prova_path": "all_exams_trt/6regiao/2018/Analista Judiciário - Área Judiciária/fcc-2018-trt-6-regiao-pe-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/6regiao/2018/Analista Judiciário - Área Judiciária/fcc-2018-trt-6-regiao-pe-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 9ª Região - 2015",
+    "prova_path": "all_exams_trt/9regiao/2015/Analista Judiciário - Área Administrativa/fcc-2015-trt-9-regiao-pr-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/9regiao/2015/Analista Judiciário - Área Administrativa/fcc-2015-trt-9-regiao-pr-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 9ª Região - 2015",
+    "prova_path": "all_exams_trt/9regiao/2015/Analista Judiciário - Área Judiciária/fcc-2015-trt-9-regiao-pr-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/9regiao/2015/Analista Judiciário - Área Judiciária/fcc-2015-trt-9-regiao-pr-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 9ª Região - 2022",
+    "prova_path": "all_exams_trt/9regiao/2022/Analista Judiciário - Área Judiciária/fcc-2022-trt-9-regiao-pr-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/9regiao/2022/Analista Judiciário - Área Judiciária/fcc-2022-trt-9-regiao-pr-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - Especialidade Oficial de Justiça Avaliador Federal - TRT 9ª Região - 2022",
+    "prova_path": "all_exams_trt/9regiao/2022/Analista Judiciário - Área Judiciária - Especialidade_ Oficial de Justiça-Avaliador-F/fcc-2022-trt-9-regiao-pr-analista-judiciario-area-judiciaria-especialidade-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/9regiao/2022/Analista Judiciário - Área Judiciária - Especialidade_ Oficial de Justiça-Avaliador-F/fcc-2022-trt-9-regiao-pr-analista-judiciario-area-judiciaria-especialidade-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária - Especialidade Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 11ª Região - 2017",
+    "prova_path": "all_exams_trt/11regiao/2017/Analista Judiciário – Oficial de Justiça Avaliador Federal/fcc-2017-trt-11-regiao-am-e-rr-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/11regiao/2017/Analista Judiciário – Oficial de Justiça Avaliador Federal/fcc-2017-trt-11-regiao-am-e-rr-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 11ª Região - 2017",
+    "prova_path": "all_exams_trt/11regiao/2017/Analista Judiciário - Área Administrativa/fcc-2017-trt-11-regiao-am-e-rr-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/11regiao/2017/Analista Judiciário - Área Administrativa/fcc-2017-trt-11-regiao-am-e-rr-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 11ª Região - 2017",
+    "prova_path": "all_exams_trt/11regiao/2017/Analista Judiciário – Área Judiciária/fcc-2017-trt-11-regiao-am-e-rr-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/11regiao/2017/Analista Judiciário – Área Judiciária/fcc-2017-trt-11-regiao-am-e-rr-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 11ª Região - 2024",
+    "prova_path": "all_exams_trt/11regiao/2024/Analista Judiciário - Área Administrativa/fcc-2024-trt-11-regiao-am-e-rr-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/11regiao/2024/Analista Judiciário - Área Administrativa/fcc-2024-trt-11-regiao-am-e-rr-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Especialidade Oficial de Justiça Avaliador Federal - TRT 12ª Região - 2013",
+    "prova_path": "all_exams_trt/12regiao/2013/ Analista Judiciário - Especialidade Oficial de Justiça Avaliador Federal/fcc-2013-trt-12-regiao-sc-analista-judiciario-especialidade-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/12regiao/2013/ Analista Judiciário - Especialidade Oficial de Justiça Avaliador Federal/fcc-2013-trt-12-regiao-sc-analista-judiciario-especialidade-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Especialidade Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 12ª Região - 2017",
+    "prova_path": "all_exams_trt/12regiao/2017/Analista Judiciário – Oficial de Justiça Avaliador Federal/fgv-2017-trt-12-regiao-sc-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/12regiao/2017/Analista Judiciário – Oficial de Justiça Avaliador Federal/fgv-2017-trt-12-regiao-sc-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 12ª Região - 2017",
+    "prova_path": "all_exams_trt/12regiao/2017/Analista Judiciário - Área Administrativa/fgv-2017-trt-12-regiao-sc-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/12regiao/2017/Analista Judiciário - Área Administrativa/fgv-2017-trt-12-regiao-sc-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 12ª Região - 2017",
+    "prova_path": "all_exams_trt/12regiao/2013/Analista Judiciário – Área Judiciária/fgv-2017-trt-12-regiao-sc-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/12regiao/2013/Analista Judiciário – Área Judiciária/fgv-2017-trt-12-regiao-sc-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 12ª Região - 2023",
+    "prova_path": "all_exams_trt/12regiao/2023/Analista Judiciário - Área Judiciária/fcc-2023-trt-12-regiao-sc-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/12regiao/2023/Analista Judiciário - Área Judiciária/fcc-2023-trt-12-regiao-sc-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Execução de Mandados - TRT 14ª Região - 2011",
+    "prova_path": "all_exams_trt/14regiao/2011/Analista Judiciário - Execução de Mandados/fcc-2011-trt-14-regiao-ro-e-ac-analista-judiciario-execucao-de-mandados-prova.pdf",
+    "gabarito_path": "all_exams_trt/14regiao/2011/Analista Judiciário - Execução de Mandados/fcc-2011-trt-14-regiao-ro-e-ac-analista-judiciario-execucao-de-mandados-gabarito.pdf",
+    "position": "Analista Judiciário - Execução de Mandados"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 14ª Região - 2016",
+    "prova_path": "all_exams_trt/14regiao/2016/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2016-trt-14-regiao-ro-e-ac-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/14regiao/2016/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2016-trt-14-regiao-ro-e-ac-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 14ª Região - 2022",
+    "prova_path": "all_exams_trt/14regiao/2022/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2022-trt-14-regiao-ro-e-ac-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/14regiao/2022/Analista Judiciário - Oficial de Justiça Avaliador Federal/fcc-2022-trt-14-regiao-ro-e-ac-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 14ª Região - 2022",
+    "prova_path": "all_exams_trt/14regiao/2022/Analista Judiciário - Área Judiciária/fcc-2022-trt-14-regiao-ro-e-ac-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/14regiao/2022/Analista Judiciário - Área Judiciária/fcc-2022-trt-14-regiao-ro-e-ac-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 18ª Região - 2023",
+    "prova_path": "all_exams_trt/18regiao/2023/analista judiciario/area judiciaria/fcc-2023-trt-18-regiao-go-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/18regiao/2023/analista judiciario/area judiciaria/fcc-2023-trt-18-regiao-go-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador - TRT 19ª Região - 2014",
+    "prova_path": "all_exams_trt/19regiao/2014/analista judiciario/oficial de justica avaliador/fcc-2014-trt-19-regiao-al-analista-judiciario-oficial-de-justica-avaliador-prova.pdf",
+    "gabarito_path": "all_exams_trt/19regiao/2014/analista judiciario/oficial de justica avaliador/fcc-2014-trt-19-regiao-al-analista-judiciario-oficial-de-justica-avaliador-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 19ª Região - 2014",
+    "prova_path": "all_exams_trt/19regiao/2014/analista judiciario/area admnistrativa/fcc-2014-trt-19-regiao-al-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/19regiao/2014/analista judiciario/area admnistrativa/fcc-2014-trt-19-regiao-al-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 19ª Região - 2014",
+    "prova_path": "all_exams_trt/19regiao/2014/analista judiciario/area judiciaria/fcc-2014-trt-19-regiao-al-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/19regiao/2014/analista judiciario/area judiciaria/fcc-2014-trt-19-regiao-al-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 20ª Região - 2016",
+    "prova_path": "all_exams_trt/20regiao/2016/analista judiciario/area judiciaria/fcc-2016-trt-20-regiao-se-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/20regiao/2016/analista judiciario/area judiciaria/fcc-2016-trt-20-regiao-se-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - Especialidade Oficial de Justiça Avaliador Federal - TRT 20ª Região - 2016",
+    "prova_path": "all_exams_trt/20regiao/2016/analista judiciario/oficial de justica avaliador federal/fcc-2016-trt-20-regiao-se-analista-judiciario-area-judiciaria-especialidade-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/20regiao/2016/analista judiciario/oficial de justica avaliador federal/fcc-2016-trt-20-regiao-se-analista-judiciario-area-judiciaria-especialidade-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária - Especialidade Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 21ª Região - 2017",
+    "prova_path": "all_exams_trt/21regiao/2017/area judiciaria/fcc-2017-trt-21-regiao-rn-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/21regiao/2017/area judiciaria/fcc-2017-trt-21-regiao-rn-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 22ª Região - 2010",
+    "prova_path": "all_exams_trt/22regiao/2010/area judiciaria/fcc-2010-trt-22-regiao-pi-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/22regiao/2010/area judiciaria/fcc-2010-trt-22-regiao-pi-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - Execução de Mandados - TRT 22ª Região - 2010",
+    "prova_path": "all_exams_trt/22regiao/2010/execucao de mandados/fcc-2010-trt-22-regiao-pi-analista-judiciario-area-judiciaria-execucao-de-mandados-prova.pdf",
+    "gabarito_path": "all_exams_trt/22regiao/2010/execucao de mandados/fcc-2010-trt-22-regiao-pi-analista-judiciario-area-judiciaria-execucao-de-mandados-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária - Execução de Mandados"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 22ª Região - 2022",
+    "prova_path": "all_exams_trt/22regiao/2022/oficial de justica/fcc-2022-trt-22-regiao-pi-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/22regiao/2022/oficial de justica/fcc-2022-trt-22-regiao-pi-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 22ª Região - 2022",
+    "prova_path": "all_exams_trt/22regiao/2022/analista judiciario/fcc-2022-trt-22-regiao-pi-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/22regiao/2022/analista judiciario/fcc-2022-trt-22-regiao-pi-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 23ª Região - 2016",
+    "prova_path": "all_exams_trt/23regiao/2016/oficial de justica/fcc-2016-trt-23-regiao-mt-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/23regiao/2016/oficial de justica/fcc-2016-trt-23-regiao-mt-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 23ª Região - 2016",
+    "prova_path": "all_exams_trt/23regiao/2016/area judiciaria/fcc-2016-trt-23-regiao-mt-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/23regiao/2016/area judiciaria/fcc-2016-trt-23-regiao-mt-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Oficial de Justiça Avaliador Federal - TRT 23ª Região - 2022",
+    "prova_path": "all_exams_trt/23regiao/2022/oficial de justica/fcc-2022-trt-23-regiao-mt-analista-judiciario-oficial-de-justica-avaliador-federal-prova.pdf",
+    "gabarito_path": "all_exams_trt/23regiao/2022/oficial de justica/fcc-2022-trt-23-regiao-mt-analista-judiciario-oficial-de-justica-avaliador-federal-gabarito.pdf",
+    "position": "Analista Judiciário - Oficial de Justiça Avaliador Federal"
+  },
+  {
+    "exam": "Analista Judiciário - Área Judiciária - TRT 23ª Região - 2022",
+    "prova_path": "all_exams_trt/23regiao/2022/area judiciaria/fcc-2022-trt-23-regiao-mt-analista-judiciario-area-judiciaria-prova.pdf",
+    "gabarito_path": "all_exams_trt/23regiao/2022/area judiciaria/fcc-2022-trt-23-regiao-mt-analista-judiciario-area-judiciaria-gabarito.pdf",
+    "position": "Analista Judiciário - Área Judiciária"
+  },
+  {
+    "exam": "Analista Judiciário - Execução de Mandados - TRT 24ª Região - 2011",
+    "prova_path": "all_exams_trt/24regiao/2011/execucao de mandados/fcc-2011-trt-24-regiao-ms-analista-judiciario-execucao-de-mandados-prova.pdf",
+    "gabarito_path": "all_exams_trt/24regiao/2011/execucao de mandados/fcc-2011-trt-24-regiao-ms-analista-judiciario-execucao-de-mandados-gabarito.pdf",
+    "position": "Analista Judiciário - Execução de Mandados"
+  },
+  {
+    "exam": "Analista Judiciário - Área Administrativa - TRT 24ª Região - 2011",
+    "prova_path": "all_exams_trt/24regiao/2011/area administrativa/fcc-2011-trt-24-regiao-ms-analista-judiciario-area-administrativa-prova.pdf",
+    "gabarito_path": "all_exams_trt/24regiao/2011/area administrativa/fcc-2011-trt-24-regiao-ms-analista-judiciario-area-administrativa-gabarito.pdf",
+    "position": "Analista Judiciário - Área Administrativa"
+  }
+]

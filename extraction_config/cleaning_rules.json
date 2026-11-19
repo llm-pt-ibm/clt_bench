@@ -1,0 +1,163 @@
+{
+  "literal": [
+    ""
+  ],
+  "regex": [
+    {
+      "pattern": "^(\\d{1,3})[ \\t]+A\\d{5}$",
+      "replacement": "\\1",
+      "flags": "M",
+      "note": "question number and code on the same line '01 A00413' (II exam): keeps only the number"
+    },
+    {
+      "pattern": "A\\d{5}\\n",
+      "note": "code like 'A12345' followed by a line break"
+    },
+    {
+      "pattern": "^(?:\\d{1,2}\\n)?(?:[IVXLC]+|\\d+[oº])?[ \\t]*EXAME[ \\t]*D[EO][ \\t]*ORDEM[ \\t]*U[A-Z]*$",
+      "flags": "MI",
+      "note": "exam header (left fragment or full), e.g. 'XXIV EXAME DE ORDEM U', '42o EXAME DO ORDEM UNIFICADO', with optional split page number before it"
+    },
+    {
+      "pattern": "^(?:\\d{1,2}\\n)?(?:[A-Z]*CADO|DO|O \\d{4}\\.\\d|– PROVA \\d+)[ \\t]*–[ \\t]*TIPO \\d+[ \\t]*–[ \\t]*BRANC[AO]$",
+      "flags": "M",
+      "note": "exam header right fragment, e.g. 'FICADO – TIPO 01 – BRANCA', 'CADO – TIPO 1 – BRANCO' (V exam), 'DO – TIPO 1 – BRANCO' (IV exam), with optional page number before it"
+    },
+    {
+      "pattern": "^PROVA APLICAD?A?$",
+      "flags": "M",
+      "note": "footer left fragment 'PROVA APLICADA'"
+    },
+    {
+      "pattern": "^(?:A )?EM \\d{1,2}/\\d{1,2}/\\d{4}$",
+      "flags": "M",
+      "note": "footer right fragment 'A EM 19/11/2017'"
+    },
+    {
+      "pattern": "^SALVADOR – \\d{2}/\\d{2}/\\d{4}$",
+      "flags": "M",
+      "note": "footer of the Salvador reapplication"
+    },
+    {
+      "pattern": "^Pági$",
+      "flags": "M",
+      "note": "footer left fragment of 'Página' (2011-2012)"
+    },
+    {
+      "pattern": "^a \\d+$",
+      "flags": "M",
+      "note": "footer right fragment of 'Página N' (2011-2012)"
+    },
+    {
+      "pattern": "^\\uf020?[ \\t]*TIPO[ \\t]*(?:\\d+[ \\t]*)?(?:–[ \\t]*)?BRANCA[ \\t]*–[ \\t]*PÁGINA(?:[ \\t]*\\d+|\\n\\d+)$",
+      "flags": "MI",
+      "note": "footer 'Tipo Branca – Página N' (2023+)"
+    },
+    {
+      "pattern": "^Tipo(?: \\d+)?(?: –)? Branca\\n– Página \\d+$",
+      "flags": "MI",
+      "note": "footer split in two lines 'Tipo 1 – Branca' / '– Página N' (2024+)"
+    },
+    {
+      "pattern": "^OAB – Exame de Ordem \\d{4}\\.\\d(?: Cadern?o?(?: [A-Z]*)?)?$",
+      "flags": "M",
+      "note": "CESPE footer left fragment 'OAB – Exame de Ordem 2010.1 Caderno AF'"
+    },
+    {
+      "pattern": "^(?:[A-Z]* ARINOS )?– \\d+ –$",
+      "flags": "M",
+      "note": "CESPE footer right fragment 'ONSO ARINOS – 7 –' or page number '– 1 –'"
+    },
+    {
+      "pattern": "^o correta, de acordo com o respectivo comando\\.[\\s\\S]*?^BJETIVA$",
+      "flags": "M",
+      "note": "CESPE first page: right half of the instructions box and of the 'PROVA OBJETIVA' banner"
+    },
+    {
+      "pattern": "^OAB – Exame de Ordem Unificado \\d{4}\\.\\d$",
+      "flags": "M",
+      "note": "header 'OAB – Exame de Ordem Unificado 2010.2' (II exam)"
+    },
+    {
+      "pattern": "^(?:\\d*[ \\t]*–[ \\t]*)?Caderno de Prova \\d+(?:[ \\t]*–[ \\t]*\\d*)?$",
+      "flags": "M",
+      "note": "footer 'Caderno de Prova 01 – 5' split by the column cut (II exam)"
+    },
+    {
+      "pattern": "^(?:–\\d*–?|\\d+–)[ \\t]*$",
+      "flags": "M",
+      "note": "page number '–2–' split by the column cut (II exam)"
+    },
+    {
+      "pattern": "^BJETIVA\\nforma:\\n[\\s\\S]*?ECA = Estatuto da Criança e do$",
+      "flags": "M",
+      "note": "II exam first page: right half of the acronyms box and of the 'PROVA OBJETIVA' banner"
+    },
+    {
+      "pattern": "^\\(cid:24\\)\\)",
+      "replacement": "D)",
+      "flags": "M",
+      "note": "XXXV question 77: option D marker drawn with an unreadable glyph"
+    },
+    {
+      "pattern": "^(?:[^\\n]*\\(cid:\\d+\\)){3,}[^\\n]*\\n?",
+      "flags": "M",
+      "note": "line of unreadable glyphs '(cid:N)' (font without unicode map, e.g. XXXV pages 16 and 20): removes the whole line"
+    },
+    {
+      "pattern": "^[ \\t]*(?:\\(cid:\\d+\\)[ \\t]*)+\\n?",
+      "flags": "M",
+      "note": "line with only one or two '(cid:N)' glyphs"
+    },
+    {
+      "pattern": "[ \\t]*\\(cid:\\d+\\)",
+      "note": "stray '(cid:N)' glyph inside a readable line"
+    },
+    {
+      "pattern": "^(?:QUESTIONÁRIO DE PERCEPÇÃO|Questionário de percepção sobre a prova$)[\\s\\S]*",
+      "flags": "M",
+      "note": "perception questionnaire after the last question: removes it and everything after it"
+    }
+  ],
+  "question": {
+    "literal": [
+      {
+        "value": "-\n",
+        "replacement": "-",
+        "note": "hyphenated word split across lines (repassá-\\nlo -> repassá-lo); must run before the line-break rule"
+      },
+      {
+        "value": "‐\n",
+        "replacement": "‐",
+        "note": "same with the unicode hyphen U+2010 (tão‐\\nsomente -> tão‐somente, VIII exam); must run before the line-break rule"
+      },
+      {
+        "value": "\n",
+        "replacement": " ",
+        "note": "line break"
+      },
+      {
+        "value": " ",
+        "replacement": " ",
+        "note": "non-breaking space"
+      },
+      {
+        "value": "­",
+        "replacement": " ",
+        "note": "soft hyphen"
+      },
+      {
+        "value": "​",
+        "replacement": " ",
+        "note": "zero-width space"
+      }
+    ],
+    "regex": [
+      {
+        "pattern": "(?<=\\dh\\.)(?=[A-ZÀ-Ü])",
+        "replacement": " ",
+        "note": "sentence glued after an hour abbreviation, without a space in the PDF: '24h x 72h.Nos dias' (XXVI exam q71)"
+      }
+    ]
+  }
+}

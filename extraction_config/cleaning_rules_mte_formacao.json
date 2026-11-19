@@ -1,0 +1,55 @@
+{
+  "literal": [],
+  "regex": [
+    {
+      "pattern": "^CEBRASPE – MTE –[ \\t]*Edital: \\d{4}$",
+      "flags": "M",
+      "note": "page header 'CEBRASPE – MTE –Edital: 2025'"
+    },
+    {
+      "pattern": "^correta, de acordo com o respectivo comando\\.[\\s\\S]*?^JETIVA \\d+ --$",
+      "flags": "M",
+      "note": "first page: right half of the instructions and of the '-- PROVA OBJETIVA N --' banner"
+    },
+    {
+      "pattern": "^Espaço livre$",
+      "flags": "M",
+      "note": "blank space for notes at the end of the exam"
+    },
+    {
+      "pattern": "(?<=\\S)_+$",
+      "flags": "M",
+      "note": "underscore stuck to the end of a line: 'danificada._' (Prova Objetiva 2, question 26)"
+    }
+  ],
+  "question": {
+    "literal": [
+      {
+        "value": "-\n",
+        "replacement": "-",
+        "note": "hyphenated word split across lines (repassá-\\nlo -> repassá-lo); must run before the line-break rule"
+      },
+      {
+        "value": "\n",
+        "replacement": " ",
+        "note": "line break"
+      },
+      {
+        "value": " ",
+        "replacement": " ",
+        "note": "non-breaking space"
+      },
+      {
+        "value": "­",
+        "replacement": " ",
+        "note": "soft hyphen"
+      },
+      {
+        "value": "​",
+        "replacement": " ",
+        "note": "zero-width space"
+      }
+    ],
+    "regex": []
+  }
+}
