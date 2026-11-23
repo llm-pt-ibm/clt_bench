@@ -1,0 +1,19 @@
+column,type,description,allowed_values,example
+id,string,Unique identifier of the question.,CLTBench-0001 to CLTBench-1330,CLTBench-0019
+question_number,integer,Question number in the original examination.,Positive integer,41
+question,string,"Question statement (stem), in Portuguese.",Free text,"O princípio norteador do exercício do jus variandi pelo empregador, conforme disciplina a Consolidação das Leis do Trabalho é o"
+options,object (JSON),Answer options keyed by letter. In the CSV file it is stored as a JSON string.,Keys A-D or A-E,"{""A"": ""do in dubio pro operario, ..."", ""B"": ""da ausência de prejuízo ao empregado, ..."", ...}"
+answer,string,Letter of the correct option according to the official final answer key.,"A, B, C, D, E",E
+exam,string,Identification of the source examination.,Free text,Analista Judiciário - Área Judiciária - TRT 18ª Região - 2023
+year,integer,Year of the examination.,2003-2026,2023
+board,string,Examination board that prepared the exam.,"FCC, FGV, ESAF, CESPE/CEBRASPE",FCC
+position,string,Position the examination was for; OAB for the Brazilian Bar Examination.,Free text,Analista Judiciário - Área Judiciária
+num_options,integer,Number of answer options.,"4, 5",5
+num_words,integer,Number of words in the question statement (whitespace tokenization).,Positive integer,20
+num_tokens,integer,"Number of tokens in the question statement, computed with the o200k_base tokenizer (tiktoken).",Positive integer,26
+institution,string,Institution responsible for the examination.,Free text,Tribunal Regional do Trabalho 18ª Região
+exam_type,string,Type of examination: public service entrance examination or Brazilian Bar Examination (Exame de Ordem da OAB).,"public_service, bar_exam",public_service
+num_words_options,integer,"Sum of the number of words in the text of each option (whitespace tokenization), without option letters.",Positive integer,77
+num_words_total,integer,Number of words in the question statement and options (num_words + num_words_options).,Positive integer,97
+num_tokens_options,integer,"Sum of the number of tokens in the text of each option, computed with the o200k_base tokenizer (tiktoken), without option letters.",Positive integer,112
+num_tokens_total,integer,Number of tokens in the question statement and options (num_tokens + num_tokens_options).,Positive integer,138
